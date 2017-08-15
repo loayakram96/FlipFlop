@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o F:/Files/A_Beltagy/Mux5_1_isim_beh.exe -prj F:/Files/A_Beltagy/Mux5_1_beh.prj work.Mux5_1 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/Files/A_Beltagy/Mux2_1.vhd" into library work
+Parsing VHDL file "F:/Files/A_Beltagy/Mux5_1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Mux2_1 [mux2_1_default]
+Compiling architecture behavioral of entity mux5_1
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable F:/Files/A_Beltagy/Mux5_1_isim_beh.exe
+Fuse Memory Usage: 29736 KB
+Fuse CPU Usage: 342 ms

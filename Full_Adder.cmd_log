@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/Files/A_Beltagy/Full_Adder.xst" -ofn "F:/Files/A_Beltagy/Full_Adder.syr" 
+sch2sym -intstyle ise -family spartan3 -refsym Full_Adder F:/Files/A_Beltagy/Full_Adder.sch F:/Files/A_Beltagy/Full_Adder.sym 

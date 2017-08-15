@@ -1,0 +1,5 @@
+set -tmpdir "F:/Files/A_Beltagy/xst/projnav.tmp"
+set -xsthdpdir "F:/Files/A_Beltagy/xst"
+elaborate
+-ifn test.prj
+-ifmt mixed

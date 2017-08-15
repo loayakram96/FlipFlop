@@ -1,0 +1,1 @@
+vhdtdtfi -prj A_Beltagy -o F:/Files/A_Beltagy/Mux2_1.vhi -module Mux2_1 -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Mux2_1.vhd 

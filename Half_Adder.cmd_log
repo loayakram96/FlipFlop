@@ -1,0 +1,6 @@
+sch2hdl -intstyle ise -family spartan3 -flat -suppress -vhdl Half_Adder_drc.vhf -w F:/Files/A_Beltagy/Half_Adder.sch 
+sch2sym -intstyle ise -family spartan3 -refsym Half_Adder F:/Files/A_Beltagy/Half_Adder.sch F:/Files/A_Beltagy/Half_Adder.sym 
+xst -intstyle ise -ifn "F:/Files/A_Beltagy/Half_Adder.xst" -ofn "F:/Files/A_Beltagy/Half_Adder.syr" 
+xst -intstyle ise -ifn "F:/Files/A_Beltagy/Half_Adder.xst" -ofn "F:/Files/A_Beltagy/Half_Adder.syr" 
+sch2sym -intstyle ise -family spartan3 -refsym Half_Adder F:/Files/A_Beltagy/Half_Adder.sch F:/Files/A_Beltagy/Half_Adder.sym 
+sch2sym -intstyle ise -family spartan3 -refsym Half_Adder F:/Files/A_Beltagy/Half_Adder.sch F:/Files/A_Beltagy/Half_Adder.sym 

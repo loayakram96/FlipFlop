@@ -1,0 +1,40 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/Files/A_Beltagy/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to F:/Files/A_Beltagy/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/Files/A_Beltagy/test.vhd" in Library work.
+Entity <test> compiled.
+ERROR:HDLParsers:164 - "F:/Files/A_Beltagy/test.vhd" Line 42. parse error, unexpected SEMICOLON, expecting COMMA or COLON
+ERROR:HDLParsers:164 - "F:/Files/A_Beltagy/test.vhd" Line 43. parse error, unexpected SEMICOLON, expecting COMMA or COLON
+ERROR:HDLParsers:3312 - "F:/Files/A_Beltagy/test.vhd" Line 46. Undefined symbol 'temp1'.
+ERROR:HDLParsers:3312 - "F:/Files/A_Beltagy/test.vhd" Line 47. Undefined symbol 'temp2'.
+ERROR:HDLParsers:1209 - "F:/Files/A_Beltagy/test.vhd" Line 48. temp2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "F:/Files/A_Beltagy/test.vhd" Line 48. temp1: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> 
+
+Total memory usage is 210724 kilobytes
+
+Number of errors   :    6 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
