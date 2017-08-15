@@ -1,0 +1,82 @@
+V3 56
+FL C:/Users/Mahmoud_mohamed/Desktop/A_Beltagy/FlipFlop.vhf 2016/12/20.13:41:23 P.58f
+EN work/FJKC_MXILINX_FlipFlop 1482234088 \
+      FL C:/Users/Mahmoud_mohamed/Desktop/A_Beltagy/FlipFlop.vhf \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 LB UNISIM \
+      PH unisim/VCOMPONENTS 1364358225
+AR work/FJKC_MXILINX_FlipFlop/BEHAVIORAL 1482234089 \
+      FL C:/Users/Mahmoud_mohamed/Desktop/A_Beltagy/FlipFlop.vhf \
+      EN work/FJKC_MXILINX_FlipFlop 1482234088 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/FlipFlop 1482234090 \
+      FL C:/Users/Mahmoud_mohamed/Desktop/A_Beltagy/FlipFlop.vhf \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 LB UNISIM \
+      PH unisim/VCOMPONENTS 1364358225
+AR work/FlipFlop/BEHAVIORAL 1482234091 \
+      FL C:/Users/Mahmoud_mohamed/Desktop/A_Beltagy/FlipFlop.vhf EN work/FlipFlop 1482234090 \
+      CP FJKC_MXILINX_FlipFlop CP VCC CP INV CP GND
+FL D:/A_Beltagy/And_2.vhf 2016/10/04.13:24:49 P.58f
+EN work/And_2 1475580294 FL D:/A_Beltagy/And_2.vhf PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/And_2/BEHAVIORAL 1475580295 \
+      FL D:/A_Beltagy/And_2.vhf EN work/And_2 1475580294 CP AND2
+FL F:/Files/A_Beltagy/Adder_4Bits.vhf 2016/10/18.13:13:55 P.58f
+EN work/Full_Adder_MUSER_Adder_4Bits 1479197799 \
+      FL F:/Files/A_Beltagy/Adder_4Bits.vhf PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/Full_Adder_MUSER_Adder_4Bits/BEHAVIORAL 1479197800 \
+      FL F:/Files/A_Beltagy/Adder_4Bits.vhf EN work/Full_Adder_MUSER_Adder_4Bits 1479197799 \
+      CP XOR2 CP AND2 CP OR2
+EN work/Adder_4Bits 1479197801 \
+      FL F:/Files/A_Beltagy/Adder_4Bits.vhf PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223 LB UNISIM PH unisim/VCOMPONENTS 1364358225
+AR work/Adder_4Bits/BEHAVIORAL 1479197802 \
+      FL F:/Files/A_Beltagy/Adder_4Bits.vhf EN work/Adder_4Bits 1479197801 \
+      CP Full_Adder_MUSER_Adder_4Bits
+FL F:/Files/A_Beltagy/And_VHDL.vhd 2016/11/15.13:13:15 P.58f
+EN work/And_VHDL 1479208397 FL F:/Files/A_Beltagy/And_VHDL.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/And_VHDL/Behavioral 1479208398 \
+      FL F:/Files/A_Beltagy/And_VHDL.vhd EN work/And_VHDL 1479208397
+FL F:/Files/A_Beltagy/FlipFlop.vhf 2016/11/15.13:17:58 P.58f
+FL F:/Files/A_Beltagy/Full_Adder.vhf 2016/10/18.13:13:15 P.58f
+EN work/Full_Adder 1479197803 FL F:/Files/A_Beltagy/Full_Adder.vhf \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 LB UNISIM \
+      PH unisim/VCOMPONENTS 1364358225
+AR work/Full_Adder/BEHAVIORAL 1479197804 \
+      FL F:/Files/A_Beltagy/Full_Adder.vhf EN work/Full_Adder 1479197803 CP XOR2 \
+      CP AND2 CP OR2
+FL F:/Files/A_Beltagy/Half_Adder.vhf 2016/10/11.12:44:09 P.58f
+EN work/Half_Adder 1476182653 FL F:/Files/A_Beltagy/Half_Adder.vhf \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 LB UNISIM \
+      PH unisim/VCOMPONENTS 1364358225
+AR work/Half_Adder/BEHAVIORAL 1476182654 \
+      FL F:/Files/A_Beltagy/Half_Adder.vhf EN work/Half_Adder 1476182653 CP XOR2 \
+      CP OR2
+FL F:/Files/A_Beltagy/Mux2_1.vhd 2016/12/13.13:16:26 P.58f
+EN work/Mux2_1 1481628341 FL F:/Files/A_Beltagy/Mux2_1.vhd PB ieee/std_logic_1164 1364358218
+AR work/Mux2_1/Behavioral 1481628342 \
+      FL F:/Files/A_Beltagy/Mux2_1.vhd EN work/Mux2_1 1481628341
+FL F:/Files/A_Beltagy/Mux5_1.vhd 2016/12/13.13:25:39 P.58f
+EN work/Mux5_1 1481628343 FL F:/Files/A_Beltagy/Mux5_1.vhd PB ieee/std_logic_1164 1364358218
+AR work/Mux5_1/Behavioral 1481628344 \
+      FL F:/Files/A_Beltagy/Mux5_1.vhd EN work/Mux5_1 1481628343 CP Mux2_1
+FL F:/Files/A_Beltagy/Mux_4to1.vhd 2016/11/22.13:17:10 P.58f
+EN work/Mux_4to1 1479813431 FL F:/Files/A_Beltagy/Mux_4to1.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/Mux_4to1/Behavioral 1479813432 \
+      FL F:/Files/A_Beltagy/Mux_4to1.vhd EN work/Mux_4to1 1479813431
+FL F:/Files/A_Beltagy/Shifr_Rigister.vhd 2016/12/06.13:50:32 P.58f
+EN work/Shifr_Rigister 1481025034 FL F:/Files/A_Beltagy/Shifr_Rigister.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/Shifr_Rigister/Behavioral 1481025035 \
+      FL F:/Files/A_Beltagy/Shifr_Rigister.vhd EN work/Shifr_Rigister 1481025034
+FL F:/Files/A_Beltagy/Shift_Rig.vhd 2016/12/06.13:54:41 P.58f
+EN work/Shift_Rig 1481025283 FL F:/Files/A_Beltagy/Shift_Rig.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/Shift_Rig/Behavioral 1481025284 \
+      FL F:/Files/A_Beltagy/Shift_Rig.vhd EN work/Shift_Rig 1481025283
+FL F:/Files/A_Beltagy/test.vhd 2016/11/22.12:54:52 P.58f
+EN work/test 0 FL F:/Files/A_Beltagy/test.vhd PB ieee/std_logic_1164 1364358218
+AR work/test/Behavioral 0 \
+      FL F:/Files/A_Beltagy/test.vhd EN work/test 0
